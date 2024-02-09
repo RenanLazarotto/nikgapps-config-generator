@@ -1,38 +1,15 @@
-# create-svelte
+# NikGapps Config Generator
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A simple tool that didn't really needed to exist but I created anyway. It'll look good in my portfolio.
 
-## Creating a project
+## What's this?
 
-If you're seeing this, you've probably already done this step. Congrats!
+This is a simple tool that (will, eventually) generate `nikgapps.config` files to use with [NikGapps Custom Builds](https://github.com/nikgapps/config). While it isn't the hardest thing to do manually, I kinda felt it would be cool to have a visual tool to do that... and I needed something to work on and put on my portfolio.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Cool. I generate a config file, what do I do now?
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Please refer to the [aforementioned repository](https://github.com/nikgapps/config) for what to do next.
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+> ## Tip:
+>
+> You'll need a GitHub account to generate a custom build, but you can also use the shiny config file you've just generated with a prebuild package. Please check [this post](https://nikgapps.com/misc/2022/02/22/NikGapps-Config.html) for more information.
